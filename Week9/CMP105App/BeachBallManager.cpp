@@ -10,6 +10,7 @@ BeachBallManager::BeachBallManager()
 		balls[i].setAlive(false);
 		balls[i].setTexture(&texture);
 		balls[i].setSize(sf::Vector2f(100, 100));
+		//balls[i].setCollisionBox(0, 0, 100, 100);
 	}
 }
 

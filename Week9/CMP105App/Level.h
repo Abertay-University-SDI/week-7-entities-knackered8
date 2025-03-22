@@ -7,6 +7,9 @@
 #include <iostream>
 #include "Ball.h"
 #include "BeachBallManager.h"
+#include "FallingBallManager.h"
+#include "Player.h"
+#include "Wall.h"
 
 
 class Level : public BaseLevel{
@@ -24,5 +27,9 @@ public:
 private:
 	//Ball ball;
 	BeachBallManager ballManager;
+	FallingBallManager fallingManager;
+	Player player;
+	Wall wall;
+
 	
 };
