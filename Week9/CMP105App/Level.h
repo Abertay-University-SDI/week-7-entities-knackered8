@@ -5,6 +5,8 @@
 #include "Framework/Input.h"
 #include <string>
 #include <iostream>
+#include "Ball.h"
+#include "BeachBallManager.h"
 
 
 class Level : public BaseLevel{
@@ -16,7 +18,11 @@ public:
 	void update(float dt) override;
 	void render();
 
+
+
+
 private:
-	// Default variables for level class.
+	//Ball ball;
+	BeachBallManager ballManager;
 	
 };
